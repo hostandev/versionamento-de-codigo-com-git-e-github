@@ -310,3 +310,27 @@ $ git reset --hard 9936c23
 
 - Sempre informar o hash do commit anterior ao que será excluído!
 - Utilize o reset hard antes do push.
+
+> Por padrão, o git não reconhece diretórios vazios. Desta forma, existe uma convenção utilizada quando se deseja incluir diretórios vazios que é criar um arquivo chamado `.gitkeep`.
+
+```
+$ mkdir diretorio-vazio
+$ git st
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+$ touch diretorio-vazio/.gitkeep
+$ git st
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        diretorio-vazio/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
