@@ -35,3 +35,9 @@ Ao final das configurações, podemos listar os valores:
 ```
 $ git config --list
 ```
+
+- Configurando o nome da branch principal padrão
+
+```
+$ git config --global init.defaultBranch main
+```
