@@ -12,6 +12,8 @@ O Github é uma plataforma na web que utiliza o Git como base. Com ele é possí
 4. [Ramificação](04-ramificacao.md)
 5. [Extras](05-extras.md)
 6. [Configurar múltiplas contas Git no mesmo computador](06-configurar-multiplas-contas-no-pc.md)
+7. [Submódulos do Git](07-submodulos-do-git.md)
+8. [Criando um README para o seu Github](08-criando-um-readme-para-o-seu-github.md)
 
 ## Links úteis
 
